@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Joakim Hedlund <contact@joakimhedlund.com>",
-  "homepage": "https://github.com/Sleavely/diffy",
+  "homepage": "https://labs.joakimhedlund.com/diffy",
   "repository": "github:Sleavely/diffy",
   "license": "MIT",
   "dependencies": {
