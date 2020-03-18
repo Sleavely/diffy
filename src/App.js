@@ -1,5 +1,6 @@
 import React from 'react';
 import DiffViewer from './DiffViewer';
+import githubCorner from './github-corner-right.svg'
 import './App.css';
 
 function App() {
@@ -7,6 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Diffy</h1>
+        <a
+          href="https://github.com/Sleavely/diffy"
+          className="github-corner"
+          aria-label="View source on GitHub"
+        >
+          <img src={githubCorner} alt="Octocat" />
+        </a>
       </header>
       <section style={{ paddingTop: '2em', paddingBottom: '10vh' }}>
         <DiffViewer />
@@ -14,7 +22,7 @@ function App() {
       <footer>
         <p>
           Built and hosted by <a href="https://joakimhedlund.com">Joakim Hedlund</a>.
-          Powered by <a href="https://www.npmjs.com/package/react-diff-viewer" target="_blank" rel="noopener">react-diff-viewer</a>.
+          Powered by <a href="https://www.npmjs.com/package/react-diff-viewer">react-diff-viewer</a>.
         </p>
       </footer>
     </div>
