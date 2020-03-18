@@ -1,3 +1,9 @@
+# Diffy
+
+A tool for quickly diffing two text snippets.
+
+![Screenshot](https://i.imgur.com/4hIzxZj.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
