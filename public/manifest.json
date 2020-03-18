@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Diffy",
+  "name": "Diffy - Quickly diff two snippets of text",
   "icons": [
     {
       "src": "favicon.ico",
