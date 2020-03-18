@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import ReactDiffViewer from 'react-diff-viewer';
+import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer';
 
 export default class DiffViewer extends PureComponent {
 
@@ -50,12 +50,13 @@ export default class DiffViewer extends PureComponent {
           ></textarea>
         </div>
         <div
-          style={{ margin: '1em' }}
+          style={{ margin: '1em', textAlign: 'initial' }}
         >
           <ReactDiffViewer
             oldValue={this.state.oldCode}
             newValue={this.state.newCode}
             splitView={true}
+            compareMethod={DiffMethod.WORDS}
           //renderContent={this.highlightSyntax}
           />
         </div>
