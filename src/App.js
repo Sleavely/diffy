@@ -16,7 +16,12 @@ function App() {
           <img src={githubCorner} alt="Octocat" />
         </a>
       </header>
-      <section style={{ paddingTop: '2em', paddingBottom: '10vh' }}>
+      <section style={{
+        margin: '0 auto',
+        maxWidth: '1280px',
+        paddingTop: '2em',
+        paddingBottom: '10vh'
+      }}>
         <DiffViewer />
       </section>
       <footer>
